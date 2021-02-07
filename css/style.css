@@ -241,7 +241,7 @@ body {
     left: 0;
 }
 
-.aservices {
+.services {
     padding: 50px 0px 30px;
 }
 
@@ -251,13 +251,15 @@ body {
     margin-bottom: 60px;
 }
 
-.services__title-box {
+.services__title-box,
+.form__title-box {
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 
-.services__title-box:before {
+.services__title-box:before,
+.form__title-box:before {
     content: "";
     position: absolute;
     width: 100px;
@@ -267,7 +269,8 @@ body {
     top: 11px;
 }
 
-.services__title {
+.services__title,
+.form__title {
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
@@ -276,7 +279,8 @@ body {
     margin-bottom: 10px;
 }
 
-.services__text {
+.services__text,
+.form__text {
     letter-spacing: 0.1px;
 }
 
@@ -373,4 +377,144 @@ body {
     line-height: 24px;
     letter-spacing: 0.1px;
     color: #d3d2d2;
+}
+
+.form {
+    padding-top: 30px;
+}
+
+.form__inner {
+    padding-bottom: 40px;
+    background-image: url(../img/form-fon.png);
+    min-height: 460px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.form__box {
+    max-width: 850px;
+    padding-top: 45px;
+}
+
+.form__box-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__box-left {
+    max-width: 260px;
+    width: 100%;
+}
+
+.form__box-right {
+    max-width: 555px;
+    width: 100%;
+}
+
+.form__box-inner label,
+.form__box-inner input,
+.form__box-inner textarea {
+    display: block;
+    width: 100%;
+}
+
+.form__box-inner label {
+    line-height: 36px;
+    color: #282828;
+    font-family: 'Times New Roman';
+}
+
+.form__box-inner input {
+    margin-bottom: 8px;
+    outline: none;
+    padding: 0px 10px;
+}
+
+.form__box-inner select {
+    outline: none;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding-left: 17px;
+}
+
+.form__box-inner .jq-selectbox.jqselect {
+    display: block;
+    width: 100%;
+}
+
+.form__box-inner .jq-selectbox__select {
+    height: 40px;
+    border: 1px solid #e6e6e6;
+}
+
+.form__box-inner .jq-selectbox__trigger-arrow:before {
+    content: "\f105";
+    font-family: 'icomoon';
+    position: absolute;
+    padding-left: 17px;
+    right: 17px;
+    top: 0;
+    transform: rotate(90deg);
+}
+
+.form__box-inner .jq-selectbox__dropdown {
+    width: 100%;
+    margin: 2px 0 0;
+    padding: 0;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+}
+
+.form__box-inner .jq-selectbox li {
+    min-height: 18px;
+    padding: 5px 17px 6px;
+    color: #231F20;
+}
+
+.form__box-inner .jq-selectbox li.selected {
+    background-color: #A3ABB1;
+    color: #fff;
+}
+
+.form__box-inner .jq-selectbox li:hover {
+    background-color: #08c;
+    color: #fff;
+}
+
+.form__box-inner .jq-selectbox li.disable {
+    color: #AAA;
+}
+
+.form__box-inner .jq-selectbox li.disabled:hover {
+    background: none;
+}
+
+.form__box-inner .jq-selectbox li.optgroup {
+    font-weight: bold;
+}
+
+.form__box-inner .jq-selectbox li.optgroup:hover {
+    background: none;
+    color: #231f20;
+    cursor: default;
+}
+
+.form__box-inner .jq-selectbox li.option {
+    padding-left: 25px;
+}
+
+.form__box-inner textarea {
+    outline: none;
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    height: 208px;
+    resize: none;
+    margin-bottom: 40px;
+}
+
+.form__box-inner button {
+    background-color: transparent;
+    color: #282828;
+    float: right;
 }
