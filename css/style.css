@@ -57,6 +57,7 @@ body {
     left: 22;
     color: #1b1b1b;
     position: relative;
+    padding-right: 15px;
 }
 
 .header__contact:after {
