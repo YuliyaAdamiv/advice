@@ -816,6 +816,7 @@ body {
 
 #modal {
     width: 300px;
+    display: none;
 }
 
 #modal input {
