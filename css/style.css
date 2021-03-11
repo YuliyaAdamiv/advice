@@ -173,7 +173,7 @@ body {
     display: inline-block;
     font-size: 14px;
     line-height: 24px;
-    color: blueviolet;
+    color: white;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     padding: 8px 30px 8px 24px;
@@ -182,6 +182,7 @@ body {
     position: relative;
     z-index: 2;
     outline: none;
+    background-color: #ffc222;
 }
 
 .default-btn:after {
@@ -392,13 +393,13 @@ body {
 .form__inner {
     padding-bottom: 40px;
     background-image: url(../img/form-fon.png);
-    min-height: 460px;
+    min-height: 625px;
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
 .form__box {
-    max-width: 850px;
+    max-width: 870px;
     padding-top: 45px;
 }
 
@@ -694,7 +695,7 @@ body {
 
 .footer__content {
     background-color: #595959;
-    padding: 20px 0px 30px;
+    padding: 5px 20px 4px 50px;
 }
 
 .footer__inner {
