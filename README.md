@@ -31,7 +31,7 @@ Live demo [_here_](https://yuliyazakharchuk.github.io/Advice/).
 ## Screenshots
 
 
-![Example screenshot](./img/scren.png)
+![Example screenshot](./img/screen.png)
 
 
 ## Setup
