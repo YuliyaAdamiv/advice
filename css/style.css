@@ -23,7 +23,7 @@ li {
 body {
     font-family: 'PT Serif', serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 18px;
     color: #5e5e5e;
 }
@@ -159,7 +159,7 @@ body {
     margin-bottom: 22px;
     font-family: 'Roboto', sans-serif;
     padding-top: 220px;
-    padding-left: 170px;
+    text-align: center;
 }
 
 .slider__text {
@@ -167,7 +167,7 @@ body {
     font-size: 18px;
     color: #5e5e5e;
     margin-bottom: 50px;
-    padding-left: 270px;
+    text-align: center;
 }
 
 .default-btn {
@@ -272,6 +272,14 @@ body {
     background-color: #ffc222;
     left: 0;
     top: 11px;
+}
+
+.services-title {
+    padding: 30px 0px;
+}
+
+.services__item-text {
+    padding: 20px 50px;
 }
 
 .services__title,
@@ -658,6 +666,7 @@ body {
 
 .news__images {
     position: relative;
+    margin: 10px;
 }
 
 .news__date {
@@ -679,11 +688,13 @@ body {
     letter-spacing: 0.5px;
     color: #242424;
     padding: 12px 0;
+    margin: 10px;
 }
 
 .news__blog-text {
     letter-spacing: 0.1px;
     color: #5e5e5e;
+    margin: 10px;
 }
 
 .news__slider-title {

@@ -9,8 +9,4 @@ $(function() {
         $('.menu ul').slideToggle()
     })
 
-
-
-
-
 });
