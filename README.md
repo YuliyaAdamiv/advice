@@ -1,6 +1,6 @@
 # advice
 This project build at the basic structure of HTML in web design. You can see the solutions in working with blocks, responsive design, crossbrowser compatible. 
-Live demo [_here_](https://yuliyazakharchuk.github.io/Advice/). 
+Live demo [_here_](https://yuliyazakharchuk.github.io/advice/). 
 
 ## Table of Contents
 
