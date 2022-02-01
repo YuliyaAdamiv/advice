@@ -389,7 +389,7 @@ body {
 }
 
 .about__inner {
-    width: 545px;
+    max-width: 100%;
 }
 
 .button-container {
@@ -787,6 +787,7 @@ body {
 
 .footer__info {
     max-width: 360px;
+    text-align: center;
 }
 
 .footer__list {
