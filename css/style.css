@@ -766,15 +766,16 @@ body {
 }
 
 .footer__title {
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: 18px;
     color: #fff;
-    line-height: 36px;
+    line-height: 48px;
     letter-spacing: 0.5px;
 }
 
 .footer__text {
-    color: #d3d2d2;
+    color: #ffffff;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
